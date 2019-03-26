@@ -19,7 +19,7 @@ using namespace std;
 	volume=(mass/density)/4;
 	cout<< setprecision(2)<<fixed;
 	cout<< "------------------------------------------ \n";
-	cout << "The density:"<<volume<<"cm^3"<<endl;
+	cout << "The volume is:"<<volume<<"cm^3"<<endl;
         getch();
         return 0;
     }
