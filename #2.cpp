@@ -11,15 +11,15 @@ using namespace std;
     	double volume;
     	double density;
     // input the mass of the object
-	cout << "input the mass of the object in kg\n";
+	cout << "input the mass of the object in g \n";
 	cin >> mass;
 	//input the volume of the object
-	cout<< "input the volume of the object in m^3 \n";
+	cout<< "input the density of the object in g/cm^3 \n";
 	cin>> volume;
-	density=mass/volume;
+	volume=(mass/density)/4;
 	cout<< setprecision(2)<<fixed;
 	cout<< "------------------------------------------ \n";
-	cout << "The density:"<<density<<"kg/m^3"<<endl;
+	cout << "The density:"<<volume<<"cm^3"<<endl;
         getch();
         return 0;
     }
