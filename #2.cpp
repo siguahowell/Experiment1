@@ -20,7 +20,7 @@ using namespace std;
 	cout<< setprecision(2)<<fixed;
 	cout<< "------------------------------------------ \n";
 	cout << "The density:"<<density<<"kg/m^3"<<endl;
-        getch;
+        getch();
         return 0;
     }
 
