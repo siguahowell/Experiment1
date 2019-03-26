@@ -15,7 +15,7 @@ using namespace std;
 	cin >> mass;
 	//input the volume of the object
 	cout<< "input the density of the object in g/cm^3 \n";
-	cin>> volume;
+	cin>> density;
 	volume=(mass/density)/4;
 	cout<< setprecision(2)<<fixed;
 	cout<< "------------------------------------------ \n";
@@ -23,4 +23,3 @@ using namespace std;
         getch();
         return 0;
     }
-
