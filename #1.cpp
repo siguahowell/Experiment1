@@ -19,7 +19,7 @@ using namespace std;
 	total=ticketprice*numberOfTicketsSold;
 	cout<< "------------------------------------------ \n";
 	cout << "The total price is:"<<total<<"$"<<endl;
-        getch;
+        getch();
         return 0;
     }
 
